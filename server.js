@@ -19,3 +19,4 @@ app.use((req, res, _next) => {
 
 app.listen(PORT, () => console.log(`🚀 Express is listening on port ${PORT}`))
 
+export default app
