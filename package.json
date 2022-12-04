@@ -1,0 +1,30 @@
+{
+  "name": "ultimate-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fasaic/ultimate-task.git"
+  },
+  "author": "Fasai C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fasaic/ultimate-task/issues"
+  },
+  "homepage": "https://github.com/fasaic/ultimate-task#readme",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.2"
+  }
+}
