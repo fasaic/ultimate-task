@@ -17,7 +17,7 @@ Timeframe: 2 hours
 The server can be run by running  ```npm run start```  in the terminal to start the server. After the server is running, this endpoint : ```http://localhost:4000/{region}``` can be used to make a get request through the browser or a tool such as Insomnia. The regions available are Africa, Americas, Asia, Europe, Oceania.
 
 #### Test the Server
-The server can be tested by running ```npm run test``` in the terminal. It tests for the total population to be defined, the sample response to the most populated country in the region is correct, and that en error status is responded if the region was misspelled.
+The server can be tested by running ```npm run test``` in the terminal. Jest and supertest was used to check that the total population is defined, the sample response to the most populated country in the region is correct, and that an error status is returned if the region was misspelled.
 
 
 ## Sample Response
