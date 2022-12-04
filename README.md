@@ -7,7 +7,7 @@ Timeframe: 2 hours
 - Node.js
 - Express
 - Axios
-- Jset
+- Jest
 - Supertest
 - Insomnia
 
